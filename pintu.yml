@@ -1,0 +1,7 @@
+---
+ - hosts: all
+   tasks:
+    - name: install packages
+      yum:
+       name=mysql
+       state=present
